@@ -7,8 +7,8 @@
 
 // Duration.
 	$duration: (
-		transition:			0.2s,
-		activation:			1s
+		transition:			0.4s,
+		activation:			2s
 	);
 
 // Size.
@@ -33,17 +33,17 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
+		bg:					rgba(119, 106, 148, 0.7),
+		bg-alt:				darken(rgba(119, 106, 148, 0.7), 5),
+		fg:					rgba(255, 255, 255, 0.705),
 		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(255,255,255,0.15),
-		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		fg-light:			rgba(255, 255, 255, 0.733),
+		border:				rgba(255, 255, 255, 0.514),
+		border-bg:			rgba(255, 255, 255, 0.37),
+		accent1:			rgba(148, 124, 209, 0.7),
+		accent1-alt:		darken(rgba(148, 124, 209, 0.7), 10),
+		accent2:			rgba(128, 129, 226, 0.7),
+		accent2-alt:		darken(rgba(128, 129, 226, 0.7), 10),
+		accent3:			rgba(183, 78, 118, 0.7),
+		accent3-alt:		darken(rgba(183, 78, 118, 0.7), 10)
 	);
