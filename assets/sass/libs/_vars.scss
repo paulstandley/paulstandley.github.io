@@ -24,7 +24,7 @@
 
 // Font.
 	$font: (
-		family:				('Satisfy', cursive),
+		family:				(Verdana, Geneva, Tahoma, sans-serif),
 		family-fixed:		('Alfa Slab One', cursive),
 		weight:				normal,
 		weight-bold:		bold,
@@ -33,17 +33,17 @@
 
 // Palette.
 	$palette: (
-		bg:					rgba(119, 106, 148, 0.7),
-		bg-alt:				darken(rgba(119, 106, 148, 0.7), 5),
-		fg:					rgba(255, 255, 255, 0.705),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255, 255, 255, 0.733),
-		border:				rgba(255, 255, 255, 0.514),
-		border-bg:			rgba(255, 255, 255, 0.37),
-		accent1:			rgba(148, 124, 209, 0.7),
-		accent1-alt:		darken(rgba(148, 124, 209, 0.7), 10),
-		accent2:			rgba(128, 129, 226, 0.7),
-		accent2-alt:		darken(rgba(128, 129, 226, 0.7), 10),
-		accent3:			rgba(183, 78, 118, 0.7),
-		accent3-alt:		darken(rgba(183, 78, 118, 0.7), 10)
+		bg:					rgba(169, 159, 192, 0.604),
+		bg-alt:				darken(rgba(169, 159, 192, 0.604), 5),
+		fg:					rgba(3, 3, 3, 0.705),
+		fg-bold:			rgba(53, 40, 40, 0.863),
+		fg-light:			rgba(100, 98, 98, 0.6),
+		border:				rgba(54, 47, 47, 0.911),
+		border-bg:			rgba(222, 235, 245, 0.849),
+		accent1:			rgba(220, 210, 245, 0.404),
+		accent1-alt:		darken(rgba(220, 210, 245, 0.404), 10),
+		accent2:			rgba(200, 201, 248, 0.904),
+		accent2-alt:		darken(rgba(200, 201, 248, 0.904), 10),
+		accent3:			rgba(248, 237, 237, 0.726),
+		accent3-alt:		darken(rgba(248, 237, 237, 0.726), 20)
 	);
